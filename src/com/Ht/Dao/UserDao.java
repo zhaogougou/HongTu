@@ -210,16 +210,16 @@ public class UserDao {
 //        }
 //        return name;
 //    }
-    public static void main(String[] args) {
-        UserDao UD=new UserDao();
-        //UD.InsDao(new UserModel("222","333","444"));
-        //boolean t=UD.LoginDao(new UserModel("1111","2222"));
-        //System.out.println(t);
-        //UD.DelDao(new UserModel(1));
-       // System.out.println(UD.SelDao1(1));
-        //System.out.println(UM.getUser_name());
-//        ArrayList<UserModel> list=UD.SelAllDao();
-//        System.out.println(list.get(1).getUser_name());
-        //UD.UpdateDao(new UserModel(2,"222","333","444","123456",1));
-    }
+//    public static void main(String[] args) {
+//        UserDao UD=new UserDao();
+//        //UD.InsDao(new UserModel("222","333","444"));
+//        //boolean t=UD.LoginDao(new UserModel("1111","2222"));
+//        //System.out.println(t);
+//        //UD.DelDao(new UserModel(1));
+//       // System.out.println(UD.SelDao1(1));
+//        //System.out.println(UM.getUser_name());
+////        ArrayList<UserModel> list=UD.SelAllDao();
+////        System.out.println(list.get(1).getUser_name());
+//        //UD.UpdateDao(new UserModel(2,"222","333","444","123456",1));
+//    }
 }

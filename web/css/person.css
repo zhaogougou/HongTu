@@ -113,11 +113,47 @@ body{
 .cont-info span {
   font-size: 16px;
 }
+.update{
+  display: block;
+  width: 65px;
+  height: 25px;
+  padding: 0 2px;
+  border: none;
+  background: none;
+  border: 1px solid #333;
+  cursor: pointer;
+}
+.update:hover {
+  border-color: #aaa;
+  color: #aaa;
+}
 .cont-msg{
   padding-left: 120px;
-  height: 40px;
-  line-height: 40px;
+  height: 60px;
+  line-height: 60px;
   font-size: 16px;
+  outline: none;
+  user-select: none;
+}
+.cont-edit{
+ display: inline-block;
+ width: 200px;
+ height: 30px;
+ line-height: 30px;
+ outline: none;
+}
+button[type="submit"]{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 50px;
+  height: 30px;
+  outline: none;
+  border: none;
+  background: none;
+  background: #aaa;
+  border-radius: 5px;
+  cursor: pointer;
 }
 .collect{
   position: relative;

@@ -86,4 +86,27 @@ public class ArticleDao {
         }
         return list;
     }
+    /*
+    插入文章
+     */
+    public int InsArticleDao(String tm_article,String tm_date)
+    {
+        int i=0;
+        try {
+            conn= JDBC.getCon();
+            ps = conn.prepareStatement("insert into tm_info(tm_article,tm_data) values (?,?);");
+            ps.setString(1,tm_article);
+            ps.setString(2,tm_date);
+            ps.executeUpdate();
+        }
+        catch (Exception e)
+        {
+            e.printStackTrace();
+        }
+        finally {
+            JDBC.closeCon(conn,ps,rs);
+        }
+        return i;
+    }
+
 }
